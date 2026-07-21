@@ -1,0 +1,33 @@
+# Large binary packages (not tracked in git)
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar
+*.tgz
+*.deb
+*.whl
+*.gguf
+*.run
+*.conda
+*.tar.zst
+
+# Specific large directories
+hf_offline/gcc9_full/
+hf_offline/gcc9/
+hf_offline/cuda12/
+hf_offline/nvcc12/
+hf_offline/cudnn9/
+hf_offline/python312/
+hf_offline/alpamayo_deps/
+hf_offline/transformers_full/
+hf_offline/transformers_pkg/
+hf_offline/package/
+hf_offline/packages/
+hf_offline/opencode-baseline
+hf_offline/conda_build/
+hf_offline/cmake_whl/
+hf_offline/nvidia-container-toolkit/
+hf_offline/Miniconda3-latest-Linux-x86_64.sh
+
+# macOS
+.DS_Store
